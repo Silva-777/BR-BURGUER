@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <title>Hamburgueria Entrou Comprou</title>
+</head>
+<body>
+    <header>
+        <img class="biscoito" src="image/logo.png" alt="Logotipo" width="100">
+        <div class="container">
+            <h1>Hamburgueria Delícia</h1>
+            <nav>
+                <ul>
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#menu">Menu</a></li>
+                    <li><a href="#about">Sobre Nós</a></li>
+                    <li><a href="#contact">Contato</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <section id="home" class="hero">
+        <div class="container">
+            <h2>Bem-vindo à Hamburgueria Delícia!</h2>
+            <p>Os melhores hambúrgueres da cidade, preparados com ingredientes frescos e muito amor.</p>
+            <a href="#menu" class="btn">Veja o Menu</a>
+        </div>
+    </section>
+
+    <section id="menu">
+        <div class="container">
+            <h2>Nosso Menu</h2>
+            <div class="menu-items">
+                <div class="menu-item">
+                    <img src="image/burger1.jpg" alt="Hambúrguer Clássico">
+                    <h3>Hambúrguer Clássico</h3>
+                    <p>Carne suculenta, queijo cheddar, alface, tomate e maionese.</p>
+                    <p class="price">R$ 25,00</p>
+                </div>
+                <div class="menu-item">
+                    <img src="image/burger2.jpg" alt="Hambúrguer BBQ">
+                    <h3>Hambúrguer BBQ</h3>
+                    <p>Carne com molho barbecue, bacon crocante e cebola caramelizada.</p>
+                    <p class="price">R$ 25,00</p>
+                </div>
+                <!-- Adicione mais itens conforme necessário -->
+            </div>
+        </div>
+    </section>
+
+    <section id="about">
+        <div class="container">
+            <h2>Sobre Nós</h2>
+            <p>Na Hamburgueria Delícia, nosso objetivo é proporcionar uma experiência única com nossos hambúrgueres gourmet. Usamos apenas ingredientes de alta qualidade e seguimos receitas exclusivas que vão conquistar seu paladar.</p>
+        </div>
+    </section>
+
+    <section id="contact">
+        <div class="container">
+            <h2>Contato</h2>
+            <p>Entre em contato conosco para dúvidas, sugestões ou pedidos especiais.</p>
+            <form action="submit_form.php" method="post">
+                <label for="name">Nome:</label>
+                <input type="text" id="name" name="name" required>
+                
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+                
+                <label for="message">Mensagem:</label>
+                <textarea id="message" name="message" rows="4" required></textarea>
+                
+                <button type="submit">Enviar</button>
+            </form>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2024 Hamburgueria Delícia. Todos os direitos reservados.</p>
+        </div>
+    </footer>
+</body>
+</html>
