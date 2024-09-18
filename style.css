@@ -12,19 +12,18 @@ body {
 }
 
 header {
-  background: white;
+  background: orange;
   color: black;
   padding: 20px;
   text-align: center;
-}
-
-.biscoito {
-  justify-content: flex-start;
+  display: flex;
+  justify-content: space-between;
 }
 
 nav ul {
   list-style-type: none;
   padding: 0;
+  color: black;
 }
 
 nav ul li {
