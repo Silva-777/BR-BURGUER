@@ -1,15 +1,32 @@
 body {
-  font-family: Arial, sans-serif;
+  font-family: "Oswald", sans-serif;
   margin: 0;
   padding: 0;
   background-color: #ffffff;
 }
 
 header {
-  background-color: orange;
+  background: orange;
+  color: black;
+  padding: 20px;
+  text-align: center;
+  display: flex;
+  justify-content: space-between;
+}
+
+p {
+  color: white;
+  text-align: center;
+  padding: 40px;
+  display: flex;
+}
+
+.biscoito {
   color: black;
   text-align: center;
   padding: 20px;
+  display: flex;
+  justify-content: space-between;
 }
 
 .container {
